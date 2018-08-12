@@ -86,26 +86,72 @@ header .header-bottom ul li a:hover {
     transition: all ease .2s;
     color: rgba(161,148,128,1);
 }
-
-/*about*/
-.about-title {
+/*start of main page*/
+/*main*/
+.main-title {
     text-align: center;
     margin-bottom: 15px;
 }
-.about-description {
+.main-description {
     text-align: center;
     margin-bottom: 50px;
 }
-.about-pic {
+.main-pic {
     margin-bottom: 40px;
 }
-.about-text {
+.main-text {
     padding-bottom: 40px;
     line-height: 1.8;
 }
-.about-text p {
-    margin-bottom: 10px;
+.main-text p {
+    margin-bottom: 20px;
 }
+/*end of main page */
+
+/*start of about*/
+.about-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.about-description {
+    padding: 20px 0;
+    line-height: 1.8;
+}
+.about-pic {
+    padding: 20px 0;
+}
+.about-description p {
+    margin-bottom: 20px;
+}
+
+
+/*end of about*/
+
+/*start of contact page*/
+.contact-main {
+    text-align: center;
+}
+.contact-main-text-area {
+    padding: 5px 0 50px;
+}
+.contact-main-title {
+    padding-bottom: 20px;
+}
+.contact-main-description {
+    padding-bottom: 50px;
+    line-height: 1.6;
+}
+.contact-main-mail {
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-main-direct {
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*end of contact page*/
+
+
 /*footer*/
 footer {
     display: flex;
