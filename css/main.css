@@ -146,8 +146,8 @@ footer {
 /*totop*/
 #go-top {
   position: absolute; 
-    bottom: 5%;
-    right: 18%;
+    bottom: 1%;
+    right: 5%;
   cursor:pointer; 
   display:none;
   width: 50px;
