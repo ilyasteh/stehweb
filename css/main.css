@@ -123,9 +123,44 @@ header .header-bottom ul li a:hover {
 .about-description p {
     margin-bottom: 20px;
 }
-
-
 /*end of about*/
+
+/*start of stories*/
+
+.stories {
+
+}
+.stories-card {
+    text-align: left;
+    padding: 20px 30px;
+    margin: 10px 0;
+    background-color: #eee;
+    color: #fff;
+}
+.stories-card-title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+.stories-card.pic-1 {
+    background-image: url(../img/about-pic.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: .8;
+}
+.stories-card.pic-2 {
+    background-image: url(../img/ah.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: .8;
+}
+.stories-card.pic-3 {
+    background-image: url(../img/daa.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: .8;
+}
+/*end of stories*/
 
 /*start of contact page*/
 .contact-main {
