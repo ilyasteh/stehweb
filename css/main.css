@@ -51,7 +51,10 @@ h2 {
     font-size: 32px;
     font-weight: 400;
 }
-
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -128,38 +131,66 @@ header .header-bottom ul li a:hover {
 /*start of stories*/
 
 .stories {
-
+    padding-bottom: 50px;
 }
 .stories-card {
     text-align: left;
     padding: 20px 30px;
     margin: 10px 0;
-    background-color: #eee;
+    background-color: inherit;
+    color: #000;
+    border-radius: 5px;
+    transition: all .2s ease;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*opacity: .6;*/
+    border: 1px solid #000;
+
+}
+.stories-card:hover {
+    opacity: .8;
+    background-color: #000;
     color: #fff;
 }
 .stories-card-title {
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    
 }
-.stories-card.pic-1 {
-    background-image: url(../img/about-pic.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    opacity: .8;
+.stories-card-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+/*.stories-card.pic-1 {
+    background-image: url(../img/text-pic/text-1.jpg);
 }
 .stories-card.pic-2 {
-    background-image: url(../img/ah.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    opacity: .8;
+    background-image: url(../img/text-pic/text-2.jpg);
 }
 .stories-card.pic-3 {
-    background-image: url(../img/daa.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    opacity: .8;
+    background-image: url(../img/text-pic/text-3.jpg);
 }
+.stories-card.pic-4 {
+    background-image: url(../img/text-pic/text-4.jpg);
+}
+.stories-card.pic-5 {
+    background-image: url(../img/text-pic/text-5.jpg);
+}
+.stories-card.pic-6 {
+    background-image: url(../img/text-pic/text-6.jpg);
+}
+.stories-card.pic-7 {
+    background-image: url(../img/text-pic/text-7.jpg);
+}
+.stories-card.pic-8 {
+    background-image: url(../img/text-pic/text-8.jpg);
+}
+.stories-card.pic-9 {
+    background-image: url(../img/text-pic/text-9.jpg);
+}
+.stories-card.pic-10 {
+    background-image: url(../img/text-pic/text-10.jpg);
+}*/
 /*end of stories*/
 
 /*start of contact page*/
