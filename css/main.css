@@ -193,6 +193,30 @@ header .header-bottom ul li a:hover {
 }*/
 /*end of stories*/
 
+
+/*text 1 start*/
+.story-1 {
+    padding-bottom: 60px;
+}
+.story-1 h2 {
+    text-transform: uppercase;
+    /*text-align: center;*/
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+}
+.story-1 p {
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+.story-1:before {
+    content: "“"; /* Левая кавычка */
+    font: 6em/87px Times, serif;  /* Указываем размер и высоту строки (уменьшенная, чтобы кавычка была приподнята) */
+    color: #CFCFCF;
+    float: left; /* Для обтекания текстом */
+    margin-left: -55px; /* Углубляем кавычку в отступ блока */
+    padding: 0 2px;
+}
+/*text 1 end*/
 /*start of contact page*/
 .contact-main {
     text-align: center;
