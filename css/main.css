@@ -199,53 +199,7 @@ header .header-bottom ul li a:hover {
     /*text-align: center;*/
     padding-bottom: 20px;
 }
-/*blockquote {
-margin: 0;
-background: #000;
-opacity: .3;
-color: #fff;
-padding: 30px 30px 30px 90px;
-position: relative;
-font-family: 'Montserrat', sans-serif;
-}
-blockquote:before {
-content: "\201C";
-font-family: serif;
-position: absolute;
-top: 20px;
-left: 16px;
-color: black;
-width: 40px;
-height: 40px;
-border-radius: 50%;
-background: white;
-font-size: 40px;
-font-weight: bold;
-text-align: center;
-line-height: 50px;
-}
-blockquote:after {
-content: "";
-width: 4px;
-background: white;
-position:absolute;
-left: 70px;
-top: 20px;
-bottom: 20px;
-}
-blockquote p {
-margin-top: 0;
-font-size: 18px;
-font-weight: 300;
-color: #fff;
-}
-blockquote cite {
-font-style: normal;
-text-transform: uppercase;
-}
-
-*/
-blockquote {
+.stories-upper-text blockquote {
 margin: 0;
 background: inherit;
 padding: 48px;
@@ -254,7 +208,7 @@ position: relative;
 /*font-family: 'Lato', sans-serif;*/
 text-align: center;
 }
-blockquote:before, blockquote:after {
+.stories-upper-text blockquote:before, blockquote:after {
 font-size: 45px;
 color: #4f4f4f;
 position: absolute;
@@ -265,22 +219,22 @@ line-height: .5;
 background: linear-gradient(to right, #4f4f4f 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #4f4f4f 55%);
 font-family: serif;
 }
-blockquote:before {
+.stories-upper-text blockquote:before {
 content: "\201C";
 top: 30px;
 }
-blockquote:after {
+.stories-upper-text blockquote:after {
 content: "\201D";
 bottom: 30px;
 }
-blockquote p {
+.stories-upper-text blockquote p {
 font-size: 17px;
 padding: 10px;
 }
-blockquote footer {
+.stories-upper-text blockquote footer {
 margin-bottom: 1em;
 }
-blockquote cite {
+.stories-upper-text blockquote cite {
 font-style: normal;
 font-size: 18px;
 }
