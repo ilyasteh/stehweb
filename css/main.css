@@ -79,7 +79,7 @@ header .header-bottom ul {
     display: flex;
 }
 header .header-bottom ul li {
-    padding: 60px 20px 90px;
+    padding: 60px 20px 75px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
@@ -195,6 +195,95 @@ header .header-bottom ul li a:hover {
 
 
 /*text 1 start*/
+.stories-upper-text {
+    /*text-align: center;*/
+    padding-bottom: 20px;
+}
+/*blockquote {
+margin: 0;
+background: #000;
+opacity: .3;
+color: #fff;
+padding: 30px 30px 30px 90px;
+position: relative;
+font-family: 'Montserrat', sans-serif;
+}
+blockquote:before {
+content: "\201C";
+font-family: serif;
+position: absolute;
+top: 20px;
+left: 16px;
+color: black;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: white;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+line-height: 50px;
+}
+blockquote:after {
+content: "";
+width: 4px;
+background: white;
+position:absolute;
+left: 70px;
+top: 20px;
+bottom: 20px;
+}
+blockquote p {
+margin-top: 0;
+font-size: 18px;
+font-weight: 300;
+color: #fff;
+}
+blockquote cite {
+font-style: normal;
+text-transform: uppercase;
+}
+
+*/
+blockquote {
+margin: 0;
+background: inherit;
+padding: 48px;
+color: #4f4f4f;
+position: relative;
+/*font-family: 'Lato', sans-serif;*/
+text-align: center;
+}
+blockquote:before, blockquote:after {
+font-size: 45px;
+color: #4f4f4f;
+position: absolute;
+height: 2px;
+left: 40px;
+right: 40px;
+line-height: .5;
+background: linear-gradient(to right, #4f4f4f 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #4f4f4f 55%);
+font-family: serif;
+}
+blockquote:before {
+content: "\201C";
+top: 30px;
+}
+blockquote:after {
+content: "\201D";
+bottom: 30px;
+}
+blockquote p {
+font-size: 17px;
+padding: 10px;
+}
+blockquote footer {
+margin-bottom: 1em;
+}
+blockquote cite {
+font-style: normal;
+font-size: 18px;
+}
 .story-1 {
     padding-bottom: 60px;
 }
@@ -202,6 +291,7 @@ header .header-bottom ul li a:hover {
     text-transform: uppercase;
     /*text-align: center;*/
     padding-bottom: 30px;
+    margin-left: 60px;
     letter-spacing: 3px;
 }
 .story-1 p {
@@ -213,7 +303,7 @@ header .header-bottom ul li a:hover {
     font: 6em/87px Times, serif;  /* Указываем размер и высоту строки (уменьшенная, чтобы кавычка была приподнята) */
     color: #CFCFCF;
     float: left; /* Для обтекания текстом */
-    margin-left: -55px; /* Углубляем кавычку в отступ блока */
+    margin-left: -5px; /* Углубляем кавычку в отступ блока */
     padding: 0 2px;
 }
 /*text 1 end*/
@@ -240,7 +330,7 @@ header .header-bottom ul li a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 /*end of contact page*/
-
+ 
 
 /*footer*/
 footer {
