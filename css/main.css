@@ -89,6 +89,75 @@ header .header-bottom ul li a:hover {
     transition: all ease .2s;
     color: rgba(161,148,128,1);
 }
+
+/*mobile menu*/
+.centered-navigation {
+  background-color: transparent;
+  min-height: 60px;
+  z-index: 9999; 
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.centered-navigation .centered-navigation-mobile-menu {
+  color: #222;
+  line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+      border-bottom: 1px solid #eee;
+  margin: 0;
+  text-decoration: none;
+  display: block;
+}  
+     
+.centered-navigation .centered-navigation-wrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.centered-navigation ul.centered-navigation-menu {
+  -webkit-transform-style: preserve-3d;
+  clear: both;
+  display: none;
+  margin: 0 auto;
+  overflow: visible;
+  padding: 0;
+  width: 100%;
+  z-index: 99999; }
+
+
+.centered-navigation ul li.nav-link {
+  background: transparent;
+  display: block;
+  line-height: 60px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 1px solid #eee;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 3px;
+ }
+  
+.centered-navigation ul li.nav-link a {
+  color: #222;
+  display: block;
+  outline: none;
+  text-decoration: none; 
+}
+
+.centered-navigation ul li.nav-link a:focus, 
+.centered-navigation ul li.nav-link a:hover {
+    background-color: transparent;
+}
+  
+.centered-navigation li.logo.nav-link {
+  display: none;
+  line-height: 0; 
+}
 /*start of main page*/
 /*main*/
 .main-title {
@@ -197,7 +266,7 @@ header .header-bottom ul li a:hover {
 /*text 1 start*/
 .stories-upper-text {
     /*text-align: center;*/
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 .stories-upper-text blockquote {
 margin: 0;
@@ -321,21 +390,110 @@ footer {
     font-size: 9px;
     padding: 10px 0;
     letter-spacing: 3px;
+    position: relative;
 }
-
-/*totop*/
-#go-top {
-  position: absolute; 
-    bottom: 1%;
-    right: 5%;
-  cursor:pointer; 
-  display:none;
-  width: 50px;
-  height: 20px;
-  background: transparent;
+@media (min-width: 530px) and (max-width: 999999px) {
+    .centered-navigation {
+        display: none;
+    }
 }
- 
-#go-top:hover {
-    transition: all ease .2s;
-    color: rgba(161,148,128,1);
+@media (min-width: 700px) and (max-width: 960px) {
+    .main-text p,
+    .about-description p {
+        padding: 0 30px;
+    }
+    .stories {
+        padding: 20px 30px;
+    }
+}
+@media (min-width: 530px) and (max-width: 699px) {
+    .main-text p,
+    .about-description p {
+        padding: 0 30px;
+    }
+        .stories {
+        padding: 20px 30px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .stories-upper-text blockquote p {
+        font-size: 15px;
+    }
+    .stories-upper-text blockquote cite {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+@media (min-width: 200px) and (max-width: 529px) {
+    body {
+        font-size: 14px;
+    }
+    header .header-bottom {
+        display: none;
+    }
+    .main-text p,
+    .about-description p {
+        padding: 0 30px;
+    }
+        .stories {
+        padding: 20px 30px;
+    }
+    h2 {
+        font-size: 22px;
+        padding: 0 20px;
+    }
+    .stories-upper-text blockquote p {
+        font-size: 14px;
+    }
+    .stories-upper-text blockquote cite {
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 17px;
+        
+    }
+    .menu-list {
+        display: none;
+    }
+    footer {
+        justify-content: center;
+    }
+}
+@media (min-width: 200px) and (max-width: 350px) {
+    body {
+        font-size: 14px;
+    }
+    header .header-bottom {
+        display: none;
+    }
+    .main-text p,
+    .about-description p {
+        padding: 0 30px;
+    }
+        .stories {
+        padding: 20px 30px;
+    }
+    h2 {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+    .stories-upper-text blockquote p {
+        font-size: 13px;
+    }
+    .stories-upper-text blockquote cite {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 14px;
+        
+    }
+    .menu-list {
+        display: none;
+    }
+    footer {
+        justify-content: center;
+    }
 }
