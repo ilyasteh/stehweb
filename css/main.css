@@ -314,20 +314,12 @@ font-size: 18px;
     text-transform: uppercase;
     /*text-align: center;*/
     padding-bottom: 30px;
-    margin-left: 60px;
+    /*margin-left: 60px;*/
     letter-spacing: 3px;
 }
 .story-1 p {
     padding-bottom: 15px;
     line-height: 1.5;
-}
-.story-1:before {
-    content: "“"; /* Левая кавычка */
-    font: 6em/87px Times, serif;  /* Указываем размер и высоту строки (уменьшенная, чтобы кавычка была приподнята) */
-    color: #CFCFCF;
-    float: left; /* Для обтекания текстом */
-    margin-left: -5px; /* Углубляем кавычку в отступ блока */
-    padding: 0 2px;
 }
 /*text 1 end*/
 /*start of contact page*/
@@ -399,7 +391,8 @@ footer {
 }
 @media (min-width: 700px) and (max-width: 960px) {
     .main-text p,
-    .about-description p {
+    .about-description p, 
+    .story-1 {
         padding: 0 30px;
     }
     .stories {
@@ -408,7 +401,8 @@ footer {
 }
 @media (min-width: 530px) and (max-width: 699px) {
     .main-text p,
-    .about-description p {
+    .about-description p,
+    .story-1 {
         padding: 0 30px;
     }
         .stories {
@@ -428,14 +422,12 @@ footer {
     }
 }
 @media (min-width: 200px) and (max-width: 529px) {
-    body {
-        font-size: 14px;
-    }
     header .header-bottom {
         display: none;
     }
     .main-text p,
-    .about-description p {
+    .about-description p,
+    .story-1 {
         padding: 0 30px;
     }
         .stories {
@@ -463,14 +455,12 @@ footer {
     }
 }
 @media (min-width: 200px) and (max-width: 350px) {
-    body {
-        font-size: 14px;
-    }
     header .header-bottom {
         display: none;
     }
     .main-text p,
-    .about-description p {
+    .about-description p,
+    .story-1 {
         padding: 0 30px;
     }
         .stories {
