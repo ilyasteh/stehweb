@@ -179,7 +179,14 @@ header .header-bottom ul li a:hover {
     margin-bottom: 20px;
 }
 /*end of main page */
+/*pictures*/
+.main-pic img,
+.about-pic img,
+.contact-main-pic img {
+    background-color: #eee;
+}
 
+/*pictures end*/
 /*start of about*/
 .about-title {
     text-align: center;
@@ -200,7 +207,7 @@ header .header-bottom ul li a:hover {
 /*start of stories*/
 
 .stories {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .stories-card {
     text-align: left;
@@ -264,6 +271,25 @@ header .header-bottom ul li a:hover {
 
 
 /*text 1 start*/
+.buttom {
+    margin: 0 30px 30px 0;
+    text-align: right;
+}
+.text-download a {
+    background-color: #fff;
+    color: #222;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border: 1px solid #222;
+    transition: all .2s ease-in;
+    /*margin: 30px;*/
+}
+.text-download a:hover {
+    background-color: #000;
+    color: #fff
+}
 .stories-upper-text {
     /*text-align: center;*/
     padding-bottom: 5px;
